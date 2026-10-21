@@ -1,0 +1,870 @@
+[
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 1 \u03a9 and 1 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 0 ms and low for 0 ms. That works out to 48100048.1 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "1",
+   "100"
+  ],
+  "expected": "With 1 \u03a9 and 1 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 0.14 ms and low for 0.07 ms. That works out to 4810 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "1",
+   "10000"
+  ],
+  "expected": "With 1 \u03a9 and 1 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 13.86 ms and low for 6.93 ms. That works out to 48.1 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "10000",
+   "0.01"
+  ],
+  "expected": "With 1 \u03a9 and 10000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 0.07 ms and low for 0.07 ms. That works out to 7214.65 Hz at 50% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "10000",
+   "100"
+  ],
+  "expected": "With 1 \u03a9 and 10000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 693.07 ms and low for 693 ms. That works out to 0.72 Hz at 50% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "10000",
+   "10000"
+  ],
+  "expected": "With 1 \u03a9 and 10000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 69306.93 ms and low for 69300 ms. That works out to 0.01 Hz at 50% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "1000000",
+   "0.01"
+  ],
+  "expected": "With 1 \u03a9 and 1000000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 6.93 ms and low for 6.93 ms. That works out to 72.15 Hz at 50% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "1000000",
+   "100"
+  ],
+  "expected": "With 1 \u03a9 and 1000000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69300.07 ms and low for 69300 ms. That works out to 0.01 Hz at 50% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1",
+   "1000000",
+   "10000"
+  ],
+  "expected": "With 1 \u03a9 and 1000000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6930006.93 ms and low for 6930000 ms. That works out to 0 Hz at 50% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 1000 \u03a9 and 1 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 0.01 ms and low for 0 ms. That works out to 144012.12 Hz at 99.9% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "1",
+   "100"
+  ],
+  "expected": "With 1000 \u03a9 and 1 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69.37 ms and low for 0.07 ms. That works out to 14.4 Hz at 99.9% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "1",
+   "10000"
+  ],
+  "expected": "With 1000 \u03a9 and 1 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6936.93 ms and low for 6.93 ms. That works out to 0.14 Hz at 99.9% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "10000",
+   "0.01"
+  ],
+  "expected": "With 1000 \u03a9 and 10000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 0.08 ms and low for 0.07 ms. That works out to 6871.44 Hz at 52.38% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "10000",
+   "100"
+  ],
+  "expected": "With 1000 \u03a9 and 10000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 762.3 ms and low for 693 ms. That works out to 0.69 Hz at 52.38% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "10000",
+   "10000"
+  ],
+  "expected": "With 1000 \u03a9 and 10000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 76230 ms and low for 69300 ms. That works out to 0.01 Hz at 52.38% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "1000000",
+   "0.01"
+  ],
+  "expected": "With 1000 \u03a9 and 1000000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 6.94 ms and low for 6.93 ms. That works out to 72.11 Hz at 50.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "1000000",
+   "100"
+  ],
+  "expected": "With 1000 \u03a9 and 1000000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69369.3 ms and low for 69300 ms. That works out to 0.01 Hz at 50.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000",
+   "1000000",
+   "10000"
+  ],
+  "expected": "With 1000 \u03a9 and 1000000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6936930 ms and low for 6930000 ms. That works out to 0 Hz at 50.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 10000 \u03a9 and 1 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 0.07 ms and low for 0 ms. That works out to 14427.13 Hz at 99.99% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1",
+   "100"
+  ],
+  "expected": "With 10000 \u03a9 and 1 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 693.07 ms and low for 0.07 ms. That works out to 1.44 Hz at 99.99% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1",
+   "10000"
+  ],
+  "expected": "With 10000 \u03a9 and 1 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 69306.93 ms and low for 6.93 ms. That works out to 0.01 Hz at 99.99% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   "0.01"
+  ],
+  "expected": "With 10000 \u03a9 and 10000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 0.14 ms and low for 0.07 ms. That works out to 4810 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   "100"
+  ],
+  "expected": "With 10000 \u03a9 and 10000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 1386 ms and low for 693 ms. That works out to 0.48 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   "10000"
+  ],
+  "expected": "With 10000 \u03a9 and 10000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 138600 ms and low for 69300 ms. That works out to 0 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1000000",
+   "0.01"
+  ],
+  "expected": "With 10000 \u03a9 and 1000000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 7 ms and low for 6.93 ms. That works out to 71.79 Hz at 50.25% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1000000",
+   "100"
+  ],
+  "expected": "With 10000 \u03a9 and 1000000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69993 ms and low for 69300 ms. That works out to 0.01 Hz at 50.25% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1000000",
+   "10000"
+  ],
+  "expected": "With 10000 \u03a9 and 1000000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6999300 ms and low for 6930000 ms. That works out to 0 Hz at 50.25% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 999983 \u03a9 and 1 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 6.93 ms and low for 0 ms. That works out to 144.3 Hz at 100% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "1",
+   "100"
+  ],
+  "expected": "With 999983 \u03a9 and 1 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69298.89 ms and low for 0.07 ms. That works out to 0.01 Hz at 100% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "1",
+   "10000"
+  ],
+  "expected": "With 999983 \u03a9 and 1 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6929889.12 ms and low for 6.93 ms. That works out to 0 Hz at 100% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "10000",
+   "0.01"
+  ],
+  "expected": "With 999983 \u03a9 and 10000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 7 ms and low for 0.07 ms. That works out to 141.47 Hz at 99.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "10000",
+   "100"
+  ],
+  "expected": "With 999983 \u03a9 and 10000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69991.82 ms and low for 693 ms. That works out to 0.01 Hz at 99.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "10000",
+   "10000"
+  ],
+  "expected": "With 999983 \u03a9 and 10000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6999182.19 ms and low for 69300 ms. That works out to 0 Hz at 99.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "1000000",
+   "0.01"
+  ],
+  "expected": "With 999983 \u03a9 and 1000000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 13.86 ms and low for 6.93 ms. That works out to 48.1 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "1000000",
+   "100"
+  ],
+  "expected": "With 999983 \u03a9 and 1000000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 138598.82 ms and low for 69300 ms. That works out to 0 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "999983",
+   "1000000",
+   "10000"
+  ],
+  "expected": "With 999983 \u03a9 and 1000000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 13859882.19 ms and low for 6930000 ms. That works out to 0 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "1",
+   "0.01"
+  ],
+  "expected": "With 1000000 \u03a9 and 1 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 6.93 ms and low for 0 ms. That works out to 144.3 Hz at 100% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "1",
+   "100"
+  ],
+  "expected": "With 1000000 \u03a9 and 1 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69300.07 ms and low for 0.07 ms. That works out to 0.01 Hz at 100% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "1",
+   "10000"
+  ],
+  "expected": "With 1000000 \u03a9 and 1 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6930006.93 ms and low for 6.93 ms. That works out to 0 Hz at 100% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "10000",
+   "0.01"
+  ],
+  "expected": "With 1000000 \u03a9 and 10000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 7 ms and low for 0.07 ms. That works out to 141.47 Hz at 99.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "10000",
+   "100"
+  ],
+  "expected": "With 1000000 \u03a9 and 10000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 69993 ms and low for 693 ms. That works out to 0.01 Hz at 99.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "10000",
+   "10000"
+  ],
+  "expected": "With 1000000 \u03a9 and 10000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 6999300 ms and low for 69300 ms. That works out to 0 Hz at 99.02% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "1000000",
+   "0.01"
+  ],
+  "expected": "With 1000000 \u03a9 and 1000000 \u03a9 around a 0.01 \u00b5F capacitor, each cycle runs high for 13.86 ms and low for 6.93 ms. That works out to 48.1 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "1000000",
+   "100"
+  ],
+  "expected": "With 1000000 \u03a9 and 1000000 \u03a9 around a 100 \u00b5F capacitor, each cycle runs high for 138600 ms and low for 69300 ms. That works out to 0 Hz at 66.67% high."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000000",
+   "1000000",
+   "10000"
+  ],
+  "expected": "With 1000000 \u03a9 and 1000000 \u03a9 around a 10000 \u00b5F capacitor, each cycle runs high for 13860000 ms and low for 6930000 ms. That works out to 0 Hz at 66.67% high."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1",
+   "0.01"
+  ],
+  "expected": "A 1 \u03a9 resistor with a 0.01 \u00b5F capacitor gives a 0 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1",
+   "10"
+  ],
+  "expected": "A 1 \u03a9 resistor with a 10 \u00b5F capacitor gives a 0.01 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1",
+   "10000"
+  ],
+  "expected": "A 1 \u03a9 resistor with a 10000 \u00b5F capacitor gives a 11 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   "0.01"
+  ],
+  "expected": "A 100000 \u03a9 resistor with a 0.01 \u00b5F capacitor gives a 1.1 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   "10"
+  ],
+  "expected": "A 100000 \u03a9 resistor with a 10 \u00b5F capacitor gives a 1100 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   "10000"
+  ],
+  "expected": "A 100000 \u03a9 resistor with a 10000 \u00b5F capacitor gives a 1100000 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1000000",
+   "0.01"
+  ],
+  "expected": "A 1000000 \u03a9 resistor with a 0.01 \u00b5F capacitor gives a 11 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1000000",
+   "10"
+  ],
+  "expected": "A 1000000 \u03a9 resistor with a 10 \u00b5F capacitor gives a 11000 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1000000",
+   "10000"
+  ],
+  "expected": "A 1000000 \u03a9 resistor with a 10000 \u00b5F capacitor gives a 11000000 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "0.01",
+   "0.01"
+  ],
+  "expected": "For a 0.01 ms pulse with a 0.01 \u00b5F capacitor, the resistor works out to 909.09 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "0.01",
+   "10"
+  ],
+  "expected": "For a 0.01 ms pulse with a 10 \u00b5F capacitor, the resistor works out to 0.91 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "0.01",
+   "10000"
+  ],
+  "expected": "For a 0.01 ms pulse with a 10000 \u00b5F capacitor, the resistor works out to 0 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   "0.01"
+  ],
+  "expected": "For a 1000 ms pulse with a 0.01 \u00b5F capacitor, the resistor works out to 90909090.91 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   "10"
+  ],
+  "expected": "For a 1000 ms pulse with a 10 \u00b5F capacitor, the resistor works out to 90909.09 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   "10000"
+  ],
+  "expected": "For a 1000 ms pulse with a 10000 \u00b5F capacitor, the resistor works out to 90.91 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "60000",
+   "0.01"
+  ],
+  "expected": "For a 60000 ms pulse with a 0.01 \u00b5F capacitor, the resistor works out to 5454545454.55 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "60000",
+   "10"
+  ],
+  "expected": "For a 60000 ms pulse with a 10 \u00b5F capacitor, the resistor works out to 5454545.45 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "60000",
+   "10000"
+  ],
+  "expected": "For a 60000 ms pulse with a 10000 \u00b5F capacitor, the resistor works out to 5454.55 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "360000",
+   "0.01"
+  ],
+  "expected": "For a 360000 ms pulse with a 0.01 \u00b5F capacitor, the resistor works out to 32727272727.27 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "360000",
+   "10"
+  ],
+  "expected": "For a 360000 ms pulse with a 10 \u00b5F capacitor, the resistor works out to 32727272.73 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "360000",
+   "10000"
+  ],
+  "expected": "For a 360000 ms pulse with a 10000 \u00b5F capacitor, the resistor works out to 32727.27 \u03a9."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "0",
+   "10000",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "0",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   "0"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "0",
+   "10"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   "0"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "0",
+   "10"
+  ],
+  "expected": "ERR:the target pulse must be from 0.01 to 360000 ms with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   "0"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1000001",
+   "10000",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1000001",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   "1000001"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1000001",
+   "10"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   "1000001"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000001",
+   "10"
+  ],
+  "expected": "ERR:the target pulse must be from 0.01 to 360000 ms with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   "1000001"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "1.5",
+   "10000",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "1.5",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   "1.5"
+  ],
+  "expected": "With 10000 \u03a9 and 10000 \u03a9 around a 1.5 \u00b5F capacitor, each cycle runs high for 20.79 ms and low for 10.4 ms. That works out to 32.07 Hz at 66.67% high."
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "1.5",
+   "10"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   "1.5"
+  ],
+  "expected": "A 100000 \u03a9 resistor with a 1.5 \u00b5F capacitor gives a 165 ms pulse (the 1.1\u00b7R\u00b7C rule)."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1.5",
+   "10"
+  ],
+  "expected": "For a 1.5 ms pulse with a 10 \u00b5F capacitor, the resistor works out to 136.36 \u03a9."
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   "1.5"
+  ],
+  "expected": "For a 1000 ms pulse with a 1.5 \u00b5F capacitor, the resistor works out to 606060.61 \u03a9."
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "x",
+   "10000",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "x",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   "x"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "x",
+   "10"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   "x"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "x",
+   "10"
+  ],
+  "expected": "ERR:the target pulse must be from 0.01 to 360000 ms with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   "x"
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "",
+   "10000",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "",
+   "100"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "astableTruth",
+  "args": [
+   "10000",
+   "10000",
+   ""
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "",
+   "10"
+  ],
+  "expected": "ERR:each resistance must be a whole number from 1 to 1000000 \u03a9"
+ },
+ {
+  "fn": "monoTruth",
+  "args": [
+   "100000",
+   ""
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "",
+   "10"
+  ],
+  "expected": "ERR:the target pulse must be from 0.01 to 360000 ms with at most two decimal places"
+ },
+ {
+  "fn": "partsTruth",
+  "args": [
+   "1000",
+   ""
+  ],
+  "expected": "ERR:the capacitance must be from 0.01 to 10000 \u00b5F with at most two decimal places"
+ }
+]
